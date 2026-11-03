@@ -1,89 +1,31 @@
-# 🚀 Full-Stack Web Development Bootcamp
+# Full-stack web development learning path
 
-A comprehensive, industry-standard curriculum designed to transform beginners into professional full-stack developers.
+A self-paced curriculum for learning browser fundamentals, JavaScript, React, APIs, databases, testing, and deployment through one evolving task-management application.
 
-## 📖 Course Structure
+Start with the [course guide](COURSE-GUIDE.md), prepare your [development environment](SETUP.md), and copy the [progress tracker](PROGRESS.md) into your learning notes.
 
-### 📚 **Phase 1: Foundations (Weeks 1-4)**
-**Core Computing & Web Fundamentals**
+## How to study
 
-```
-01-foundations/
-├── computer-fundamentals/
-├── web-development-basics/
-└── git-version-control/
-```
+1. Read a module overview and its fundamentals. Run small examples in an isolated practice project.
+2. Complete the practical lesson without copying the entire solution. Explain each design choice.
+3. Save evidence: code, test output, screenshots, and a short explanation of what failed and why.
+4. Use advanced lessons after the core project works. Revisit them as the project grows.
 
-### 🎨 **Phase 2: Frontend Development (Weeks 5-12)**
-**Client-Side Technologies & User Interface**
+## Curriculum
 
-```
-02-frontend/
-├── html/
-├── css/
-├── javascript/
-├── typescript/
-├── react/
-└── frontend-build-tools/
-```
+| Phase | Main outcome |
+| --- | --- |
+| 1. Foundations | Explain a browser request and collaborate using Git |
+| 2. Frontend | Build an accessible, responsive task interface |
+| 3. Backend | Implement and validate an HTTP API |
+| 4. Data | Persist tasks and enforce ownership |
+| 5. Advanced | Test behavior, measure performance, explore optional extensions |
+| 6. Deployment | Release, observe, back up, and recover the application |
 
-### ⚙️ **Phase 3: Backend Development (Weeks 13-18)**
-**Server-Side Programming & APIs**
+The [module index](MODULES.md) links to every lesson. The [capstone brief](CAPSTONE.md) defines the project and assessment criteria.
 
-```
-03-backend/
-├── nodejs/
-├── expressjs/
-├── api-development/
-└── authentication-security/
-```
+## Expectations
 
-### 🗄️ **Phase 4: Database & State Management (Weeks 19-22)**
-**Data Storage & Application State**
+The 32-week schedule is a planning example at roughly 8–12 hours per week, not a promise of job readiness or seniority. Adjust it to your experience and project results. Microservices, advanced infrastructure, and specialized frontend patterns are extension topics.
 
-```
-04-data/
-├── sql-databases/
-├── mongodb/
-└── state-management/
-```
-
-### 🚀 **Phase 5: Advanced Topics (Weeks 23-28)**
-**Modern Development Practices**
-
-```
-05-advanced/
-├── testing/
-├── performance-optimization/
-├── progressive-web-apps/
-├── real-time-communication/
-├── microservices/
-└── css-architecture/
-```
-
-### 🛠️ **Phase 6: DevOps & Deployment (Weeks 29-32)**
-**Production-Ready Applications**
-
-```
-06-devops/
-└── deployment-devops/
-```
-
-## 🎯 Learning Path
-
-Each module follows a structured progression:
-- **📖 Fundamentals** - Core concepts and theory
-- **🔨 Practical** - Hands-on exercises and projects  
-- **🚀 Advanced** - Industry patterns and best practices
-
-## 🏆 Career Outcomes
-
-Upon completion, you'll be prepared for:
-- **Frontend Developer** - React, TypeScript, Modern CSS
-- **Backend Developer** - Node.js, APIs, Databases
-- **Full-Stack Developer** - End-to-end web applications
-- **DevOps Engineer** - Deployment and infrastructure
-
----
-
-**Ready to start your journey? Begin with Phase 1: Foundations! 🎉**
+Existing long-form lessons contain independent examples, not one runnable application. Follow the setup guide for new exercises and consult primary documentation when an older snippet differs from your installed version. See [maintenance notes](MAINTENANCE.md) for the scope of this revision.

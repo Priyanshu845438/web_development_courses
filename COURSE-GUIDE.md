@@ -1,136 +1,43 @@
+# Course guide
 
-# 📚 Full-Stack Web Development Course Guide
+[Home](README.md) · [All lessons](MODULES.md) · [Setup](SETUP.md) · [Progress](PROGRESS.md)
 
-## 🗺️ Course Navigation
+## Choose your starting point
 
-### 📖 How to Use This Course
+New to programming? Start with foundations. Already comfortable with files, terminals, HTTP, and Git? Demonstrate the foundation checkpoint, then start HTML. Know JavaScript? Build the frontend checkpoint before skipping to backend. Skipping reading is reasonable; skipping evidence hides gaps.
 
-1. **Follow the Phase Order** - Each phase builds on previous knowledge
-2. **Complete All Three Levels** - Fundamentals → Practical → Advanced
-3. **Build Projects** - Apply what you learn with hands-on coding
-4. **Review Prerequisites** - Check requirements before starting each phase
+## Suggested 32-week schedule
 
----
+| Weeks | Study | Evidence before moving on |
+| --- | --- | --- |
+| 1–2 | Computer fundamentals and web basics | Trace DNS → HTTPS → response → rendered page using browser tools |
+| 3–4 | Git | Branch, commit, resolve a practice conflict, and explain a diff |
+| 5 | HTML | Semantic task form with labels, headings, and keyboard access |
+| 6–7 | CSS | Responsive layout with visible focus and no narrow-screen overflow |
+| 8–9 | JavaScript | Add, edit, filter, and delete tasks; validate input; debug failures |
+| 10 | TypeScript | Model tasks and validate unknown input without unsafe casts |
+| 11–12 | Build tools, then React | Rebuild the interface using components and predictable state |
+| 13–14 | Node.js | Explain async I/O; separate application logic from server startup |
+| 15–16 | Express | Route requests, validate bodies, and return consistent errors |
+| 17–18 | API design and authentication concepts | Specify API contracts; prototype access checks using test identities |
+| 19–20 | SQL, then authentication integration | Persist users/tasks; migrate schema; verify cross-user isolation |
+| 21–22 | MongoDB comparison and state management | Explain storage choice and distinguish server state from UI state |
+| 23–24 | Testing and performance | Cover critical failures and record a measured improvement |
+| 25–28 | PWA, real-time, CSS architecture; optional microservices | Choose one extension and test its failure modes |
+| 29–32 | Deployment and capstone review | Demonstrate release, health checks, backup restore, and rollback |
 
-## 📅 32-Week Learning Schedule
+Start small tests with JavaScript; week 23 deepens the practice. Start accessibility with HTML and security with your first API. Use in-memory data only for initial API exercises; integrate persistent authentication after database study. Do not expose the practice API publicly before completing its access controls.
 
-### **Phase 1: Foundations** (Weeks 1-4)
-> Build a solid foundation in computing and web basics
+## Weekly study loop
 
-| Week | Module | Focus |
-|------|--------|-------|
-| 1 | `01-foundations/computer-fundamentals/` | Computing concepts, memory, processing |
-| 2 | `01-foundations/web-development-basics/` | How the web works, HTTP, browsers |
-| 3-4 | `01-foundations/git-version-control/` | Version control, collaboration |
+Spend about a quarter of your time reading, half building, and the rest testing and reviewing. At the end of each session record one concept, one failure, its cause, and your next action. At the end of the week explain the feature without referring to the lesson.
 
-**📋 Phase 1 Project:** Create a personal portfolio website using HTML/CSS
+## Checkpoint rubric
 
----
+Score each dimension 0 (missing), 1 (works with help or only on the happy path), or 2 (works independently with failure evidence): correctness, explanation, accessibility/API usability, failure handling, and reproducibility. Aim for 8/10 before proceeding; fix any zero in correctness or failure handling first. This is a learning rubric, not a professional certification.
 
-### **Phase 2: Frontend Development** (Weeks 5-12)
-> Master client-side development and user interfaces
+## When you get stuck
 
-| Week | Module | Focus |
-|------|--------|-------|
-| 5 | `02-frontend/html/` | Semantic markup, accessibility |
-| 6-7 | `02-frontend/css/` | Styling, layouts, responsive design |
-| 8-9 | `02-frontend/javascript/` | Programming fundamentals, DOM manipulation |
-| 10 | `02-frontend/typescript/` | Type safety, modern JavaScript |
-| 11-12 | `02-frontend/react/` | Component-based UI development |
-| 12 | `02-frontend/frontend-build-tools/` | Webpack, Vite, optimization |
+Reproduce the smallest failing case. Read the actual error and inspect input/output. Check installed versions against official documentation. Change one thing, rerun, and record the result. When asking for help, share expected behavior, actual behavior, minimal code, and redacted logs.
 
-**📋 Phase 2 Project:** Build an interactive task management app
-
----
-
-### **Phase 3: Backend Development** (Weeks 13-18)
-> Create robust server-side applications
-
-| Week | Module | Focus |
-|------|--------|-------|
-| 13-14 | `03-backend/nodejs/` | Server-side JavaScript runtime |
-| 15-16 | `03-backend/expressjs/` | Web framework, routing, middleware |
-| 17 | `03-backend/api-development/` | REST APIs, GraphQL |
-| 18 | `03-backend/authentication-security/` | User auth, security best practices |
-
-**📋 Phase 3 Project:** Build a complete REST API with authentication
-
----
-
-### **Phase 4: Data Management** (Weeks 19-22)
-> Handle data storage and application state
-
-| Week | Module | Focus |
-|------|--------|-------|
-| 19-20 | `04-data/sql-databases/` | Relational databases, SQL queries |
-| 21 | `04-data/mongodb/` | NoSQL databases, document storage |
-| 22 | `04-data/state-management/` | Redux, Context API, global state |
-
-**📋 Phase 4 Project:** Add database integration to your API
-
----
-
-### **Phase 5: Advanced Topics** (Weeks 23-28)
-> Modern development practices and patterns
-
-| Week | Module | Focus |
-|------|--------|-------|
-| 23 | `05-advanced/testing/` | Unit testing, integration testing |
-| 24 | `05-advanced/performance-optimization/` | Speed, caching, optimization |
-| 25 | `05-advanced/progressive-web-apps/` | PWAs, offline functionality |
-| 26 | `05-advanced/real-time-communication/` | WebSockets, live updates |
-| 27 | `05-advanced/microservices/` | Distributed architecture |
-| 28 | `05-advanced/css-architecture/` | CSS-in-JS, design systems |
-
-**📋 Phase 5 Project:** Convert your app into a Progressive Web App
-
----
-
-### **Phase 6: DevOps & Deployment** (Weeks 29-32)
-> Deploy and maintain production applications
-
-| Week | Module | Focus |
-|------|--------|-------|
-| 29-32 | `06-devops/deployment-devops/` | CI/CD, Docker, cloud deployment |
-
-**📋 Final Project:** Deploy your full-stack application to production
-
----
-
-## 🛠️ File Structure in Each Module
-
-```
-module-name/
-├── README.md          # Module overview and objectives
-├── fundamentals.md    # Core concepts and theory
-├── practical.md       # Hands-on exercises and examples
-└── advanced.md        # Industry patterns and best practices
-```
-
-## 🎯 Prerequisites by Phase
-
-- **Phase 1:** None - complete beginner friendly
-- **Phase 2:** Basic computer literacy, Phase 1 completion
-- **Phase 3:** JavaScript fundamentals, Phase 2 completion
-- **Phase 4:** Backend basics, Phase 3 completion
-- **Phase 5:** Full-stack understanding, Phase 4 completion
-- **Phase 6:** Complete application built, Phase 5 completion
-
-## 📈 Skill Progression
-
-```
-Beginner → Junior → Mid-Level → Senior
-Phase 1-2    Phase 3-4   Phase 5    Phase 6
-```
-
----
-
-## 🚀 Getting Started
-
-1. Read this guide completely
-2. Start with `01-foundations/computer-fundamentals/README.md`
-3. Follow the order: fundamentals → practical → advanced
-4. Build the phase projects to solidify your learning
-5. Join the community discussions for support
-
-**Happy Learning! 🎉**
+Use AI to explain errors or review an attempt, then reproduce and explain the solution yourself. Never paste credentials or private data into prompts. A generated solution is not proof that you understand or have tested it.

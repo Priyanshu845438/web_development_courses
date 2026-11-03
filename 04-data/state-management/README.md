@@ -1,5 +1,9 @@
-
 # ⚡ State Management - Managing Application State
+
+[Course guide](../../COURSE-GUIDE.md) · [Fundamentals](fundamentals.md) · [Practical](practical.md) · [Advanced](advanced.md)
+
+Scheduling note: use the course guide for the revised sequence; week labels below are legacy estimates.
+
 
 ## 📖 Module Overview
 

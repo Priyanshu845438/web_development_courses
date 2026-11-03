@@ -40,33 +40,9 @@
 
 ## 🛠 Setting Up React
 
-### Create React App (Recommended for beginners)
+### Vite setup for this course
 
-```bash
-# Install Node.js first, then run:
-npx create-react-app my-app
-cd my-app
-npm start
-```
-
-### Basic Project Structure
-
-```
-my-app/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
-├── package.json
-└── README.md
-```
-
-### Alternative: Vite (Faster)
+Use a supported Node.js version that meets [Vite's requirements](https://vite.dev/guide/).
 
 ```bash
 npm create vite@latest my-react-app -- --template react
@@ -74,6 +50,10 @@ cd my-react-app
 npm install
 npm run dev
 ```
+
+The entry HTML is `index.html` at the project root; React starts from `src/main.jsx`, with the main component in `src/App.jsx`. Use `npm run build` for a production build. For the typed course project, choose `--template react-ts` instead.
+
+See [React's setup guidance](https://react.dev/learn/build-a-react-app-from-scratch) for the tradeoffs between learning with a build tool and adopting a framework.
 
 ---
 
